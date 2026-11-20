@@ -1,0 +1,238 @@
+DEBUG - 2026-11-16 16:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-16 16:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-16 16:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-16 18:31:41 --> ErrorException: Undefined variable $expo
+[Method: GET, Route: livredor/afficher]
+in APPPATH/Views/templates/haut.php on line 71.
+ 1 APPPATH/Views/templates/haut.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livredor.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Livredor->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 18:31:47 --> ErrorException: Undefined variable $expo
+[Method: GET, Route: actualite/afficher/1]
+in APPPATH/Views/templates/haut.php on line 71.
+ 1 APPPATH/Views/templates/haut.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Actualite.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 18:33:10 --> ErrorException: Undefined variable $expo
+[Method: GET, Route: compte/lister]
+in APPPATH/Views/templates/haut.php on line 71.
+ 1 APPPATH/Views/templates/haut.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Compte.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Compte->lister()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 18:33:16 --> ErrorException: Undefined variable $expo
+[Method: GET, Route: livredor/afficher]
+in APPPATH/Views/templates/haut.php on line 71.
+ 1 APPPATH/Views/templates/haut.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livredor.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Livredor->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 18:37:51 --> ParseError: syntax error, unexpected token "{", expecting "," or ";"
+[Method: GET, Route: /]
+in APPPATH/Views/templates/haut.php on line 75.
+ 1 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Accueil.php(15): view()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Accueil->afficher()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 18:38:13 --> ParseError: syntax error, unexpected token "{", expecting "," or ";"
+[Method: GET, Route: /]
+in APPPATH/Views/templates/haut.php on line 75.
+ 1 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Accueil.php(15): view()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Accueil->afficher()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 18:38:15 --> ParseError: syntax error, unexpected token "{", expecting "," or ";"
+[Method: GET, Route: livredor/afficher]
+in APPPATH/Views/templates/haut.php on line 75.
+ 1 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Livredor.php(20): view()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Livredor->afficher()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 18:38:22 --> ParseError: syntax error, unexpected token "{", expecting "," or ";"
+[Method: GET, Route: /]
+in APPPATH/Views/templates/haut.php on line 75.
+ 1 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Accueil.php(15): view()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Accueil->afficher()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 18:38:25 --> ParseError: syntax error, unexpected token "{", expecting "," or ";"
+[Method: GET, Route: /]
+in APPPATH/Views/templates/haut.php on line 75.
+ 1 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Accueil.php(15): view()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Accueil->afficher()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-11-16 18:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-16 19:07:53 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[https:"
+[Method: GET, Route: livredor/%5Bhttps:/fonts.googleapis.com/css2]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 19:09:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[https:"
+[Method: GET, Route: livredor/%5Bhttps:/fonts.googleapis.com/css2]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 19:11:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[https:"
+[Method: GET, Route: livredor/%5Bhttps:/fonts.googleapis.com/css2]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-11-16 19:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-16 19:11:24 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[https:"
+[Method: GET, Route: livredor/%5Bhttps:/fonts.googleapis.com/css2]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 19:13:44 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[https:"
+[Method: GET, Route: livredor/%5Bhttps:/fonts.googleapis.com/css2]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 19:14:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[https:"
+[Method: GET, Route: livredor/%5Bhttps:/fonts.googleapis.com/css2]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 19:14:36 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[https:"
+[Method: GET, Route: livredor/%5Bhttps:/fonts.googleapis.com/css2]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-16 19:15:58 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[https:"
+[Method: GET, Route: livredor/%5Bhttps:/fonts.googleapis.com/css2]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-11-16 19:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-16 19:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-16 19:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-16 19:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-16 19:42:25 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: /]
+in APPPATH/Models/Db_model.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-16 19:42:35 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: /]
+in APPPATH/Models/Db_model.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-16 19:42:42 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: livredor/afficher]
+in APPPATH/Models/Db_model.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-16 19:42:46 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: compte/creer]
+in APPPATH/Models/Db_model.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-16 19:42:50 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: /]
+in APPPATH/Models/Db_model.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-16 19:43:49 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: /]
+in APPPATH/Models/Db_model.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-16 19:43:50 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: /]
+in APPPATH/Models/Db_model.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-16 19:43:53 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: /]
+in APPPATH/Models/Db_model.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-11-16 19:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

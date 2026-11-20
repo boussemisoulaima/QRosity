@@ -1,0 +1,98 @@
+CRITICAL - 2026-11-05 18:55:51 --> ErrorException: Undefined variable $expo
+[Method: GET, Route: statistique/afficher]
+in APPPATH/Views/templates/haut.php on line 8.
+ 1 APPPATH/Views/templates/haut.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Statistique.php(8): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Statistique->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-05 18:55:55 --> ErrorException: Undefined variable $expo
+[Method: GET, Route: compte/lister]
+in APPPATH/Views/templates/haut.php on line 8.
+ 1 APPPATH/Views/templates/haut.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Compte.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Compte->lister()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-05 18:56:12 --> ErrorException: Undefined variable $expo
+[Method: GET, Route: statistique/afficher]
+in APPPATH/Views/templates/haut.php on line 8.
+ 1 APPPATH/Views/templates/haut.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Statistique.php(8): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Statistique->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-05 18:56:17 --> ErrorException: Undefined variable $expo
+[Method: GET, Route: actualite/afficher/1]
+in APPPATH/Views/templates/haut.php on line 8.
+ 1 APPPATH/Views/templates/haut.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Actualite.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-05 18:57:56 --> ErrorException: Undefined variable $expo
+[Method: GET, Route: statistique/afficher]
+in APPPATH/Views/templates/haut.php on line 8.
+ 1 APPPATH/Views/templates/haut.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Statistique.php(8): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Statistique->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-05 18:57:59 --> ErrorException: Undefined variable $expo
+[Method: GET, Route: actualite/afficher/1]
+in APPPATH/Views/templates/haut.php on line 8.
+ 1 APPPATH/Views/templates/haut.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Actualite.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-05 18:59:28 --> ErrorException: Undefined variable $expo
+[Method: GET, Route: statistique/afficher]
+in APPPATH/Views/templates/haut.php on line 8.
+ 1 APPPATH/Views/templates/haut.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Statistique.php(8): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Statistique->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()

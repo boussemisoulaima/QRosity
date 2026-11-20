@@ -1,0 +1,427 @@
+CRITICAL - 2026-11-12 18:31:40 --> ErrorException: Undefined array key "act_id"
+[Method: GET, Route: /]
+in APPPATH/Views/affichage_accueil.php on line 42.
+ 1 APPPATH/Views/affichage_accueil.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/2026DIFAL3/e22408670/public_html/V1/ci/app/Views/affichage_accueil.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Accueil.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Accueil->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-11-12 18:40:46 --> Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:40:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h' in 'WHERE'
+[Method: GET, Route: actualite/afficher/h]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:40:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 5 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:40:46 --> [Caused by] mysqli_sql_exception: Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-11-12 18:45:59 --> Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:45:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h' in 'WHERE'
+[Method: GET, Route: actualite/afficher/h]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:45:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 5 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:45:59 --> [Caused by] mysqli_sql_exception: Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-11-12 18:46:08 --> Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:46:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h' in 'WHERE'
+[Method: GET, Route: actualite/afficher/h]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:46:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 5 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:46:08 --> [Caused by] mysqli_sql_exception: Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-11-12 18:46:38 --> Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:46:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h' in 'WHERE'
+[Method: GET, Route: actualite/afficher/h]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:46:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 5 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:46:38 --> [Caused by] mysqli_sql_exception: Unknown column 'h' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-11-12 18:47:12 --> Unknown column 'm' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:47:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'm' in 'WHERE'
+[Method: GET, Route: actualite/afficher/m]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:47:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'm' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 5 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:47:12 --> [Caused by] mysqli_sql_exception: Unknown column 'm' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-11-12 18:49:26 --> Unknown column 'm' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:49:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'm' in 'WHERE'
+[Method: GET, Route: actualite/afficher/m]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:49:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'm' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 5 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:49:26 --> [Caused by] mysqli_sql_exception: Unknown column 'm' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-11-12 18:57:16 --> Unknown column 'l' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:57:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'l' in 'WHERE'
+[Method: GET, Route: actualite/afficher/l]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:57:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'l' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 5 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 18:57:16 --> [Caused by] mysqli_sql_exception: Unknown column 'l' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(21): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Actualite.php(25): App\Models\Db_model->get_actualite()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Actualite->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 19:11:39 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: actualite/afficher/0]
+in APPPATH/Controllers/Actualite.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Router/Router.php(790): class_exists()
+ 5 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 7 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 19:12:25 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "$"
+[Method: GET, Route: actualite/afficher/$]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 19:19:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "*"
+[Method: GET, Route: actualite/afficher/%2A]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-11-12 20:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-12 20:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-12 20:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-12 20:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-12 20:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-12 20:24:44 --> ParseError: syntax error, unexpected token "return", expecting "function"
+[Method: POST, Route: compte/creer]
+in APPPATH/Controllers/Compte.php on line 67.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Router/Router.php(790): class_exists()
+ 5 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 7 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-11-12 20:25:05 --> ParseError: syntax error, unexpected token "return", expecting "function"
+[Method: POST, Route: compte/creer]
+in APPPATH/Controllers/Compte.php on line 67.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Router/Router.php(790): class_exists()
+ 5 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 7 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-11-12 20:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-12 20:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-12 20:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
